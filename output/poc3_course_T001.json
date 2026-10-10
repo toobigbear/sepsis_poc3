@@ -1,0 +1,137 @@
+{
+  "patient_id": "T001",
+  "name": "发热伴气促 2 天，意识模糊半天（肺部感染，脓毒性休克进展）",
+  "windows_evaluated": 4,
+  "results": [
+    {
+      "t": "T0(0h)",
+      "desc": "入院识别",
+      "assessment": "本时间窗乳酸4.2 mmol/L（>4）伴MAP 64 mmHg（<65），符合脓毒性休克启动30 mL/kg快速复苏标准。器官功能：肾功能异常（肌酐178）、凝血障碍（血小板88×10^9/L）、肺部损伤（PaO2/FiO2 210）。证据URI: [viking://fluid_and_vasoactive/ch0/sec2/blk0]、[viking://ssc_guideline_2021/ch0/sec1/blk0]。\n本回答由 AI 辅助生成，仅供临床参考，不能替代医师判断。",
+      "confidence": "HIGH",
+      "conf_score": 0.88,
+      "citations": [
+        "viking://ssc_guideline_2021/ch0/sec1/blk0",
+        "viking://fluid_and_vasoactive/ch0/sec2/blk0",
+        "viking://fluid_and_vasoactive/ch0/sec5/blk0",
+        "viking://fluid_and_vasoactive/ch0#abs"
+      ],
+      "guardrail_ok": true,
+      "metrics": {
+        "lactate": 4.2,
+        "map": 64.0,
+        "creatinine": 178.0
+      }
+    },
+    {
+      "t": "T1(2h)",
+      "desc": "复苏后复评",
+      "assessment": "乳酸由4.2降至3.4（>2 mmol/L），MAP从64升至70（达≥65）。器官功能：WBC↑、PCT↑、肌酐↑、PaO2/FiO2↓，提示感染未控及多器官受损。证据URI:viking://fluid_and_vasoactive/ch0/sec5/blk0;viking://ssc_guideline_2021/ch0/sec1/blk0\n本回答由 AI 辅助生成，仅供临床参考，不能替代医师判断。",
+      "confidence": "HIGH",
+      "conf_score": 0.88,
+      "citations": [
+        "viking://ssc_guideline_2021/ch0/sec1/blk0",
+        "viking://fluid_and_vasoactive/ch0/sec2/blk0",
+        "viking://fluid_and_vasoactive/ch0/sec5/blk0",
+        "viking://fluid_and_vasoactive/ch0#abs"
+      ],
+      "guardrail_ok": true,
+      "metrics": {
+        "lactate": 3.4,
+        "map": 70.0,
+        "creatinine": 186.0
+      }
+    },
+    {
+      "t": "T2(4h)",
+      "desc": "病情波动，循环恶化",
+      "assessment": "T2时乳酸升至4.9 mmol/L（>4），MAP降至61 mmHg（<65），提示复苏无效及循环恶化。PaO2/FiO2 180 mmHg伴PCT升高，显示多器官功能障碍进展。证据：[viking://fluid_and_vasoactive/ch0/sec5/blk0]、[viking://fluid_and_vasoactive/ch0#abs]\n本回答由 AI 辅助生成，仅供临床参考，不能替代医师判断。",
+      "confidence": "HIGH",
+      "conf_score": 0.88,
+      "citations": [
+        "viking://ssc_guideline_2021/ch0/sec1/blk0",
+        "viking://fluid_and_vasoactive/ch0/sec2/blk0",
+        "viking://fluid_and_vasoactive/ch0/sec5/blk0",
+        "viking://fluid_and_vasoactive/ch0#abs"
+      ],
+      "guardrail_ok": true,
+      "metrics": {
+        "lactate": 4.9,
+        "map": 61.0,
+        "creatinine": 245.0
+      }
+    },
+    {
+      "t": "T3(6h)",
+      "desc": "加强复苏后再评",
+      "assessment": "T3乳酸较T2下降（4.9→3.8），MAP回升至67 mmHg（达目标≥65）。但肌酐持续升高（268 umol/L）提示肾功能恶化，需持续监测。证据：[viking://fluid_and_vasoactive/ch0/sec5/blk0]、[viking://ssc_guideline_2021/ch0/sec1/blk0]\n本回答由 AI 辅助生成，仅供临床参考，不能替代医师判断。",
+      "confidence": "HIGH",
+      "conf_score": 0.88,
+      "citations": [
+        "viking://ssc_guideline_2021/ch0/sec1/blk0",
+        "viking://fluid_and_vasoactive/ch0/sec2/blk0",
+        "viking://fluid_and_vasoactive/ch0/sec5/blk0",
+        "viking://fluid_and_vasoactive/ch0#abs"
+      ],
+      "guardrail_ok": true,
+      "metrics": {
+        "lactate": 3.8,
+        "map": 67.0,
+        "creatinine": 268.0
+      }
+    }
+  ],
+  "memory_state": {
+    "patient_id": "T001",
+    "rolling_summary": "T0(0h):入院识别(乳酸4.2,MAP64.0) | T1(2h):复苏后复评(乳酸3.4,MAP70.0) | T2(4h):病情波动，循环恶化(乳酸4.9,MAP61.0) | T3(6h):加强复苏后再评(乳酸3.8,MAP67.0)",
+    "key_decisions": [],
+    "open_concerns": [
+      "肾功能恶化"
+    ],
+    "trend": {
+      "lactate": [
+        4.2,
+        3.4,
+        4.9,
+        3.8
+      ],
+      "map": [
+        64.0,
+        70.0,
+        61.0,
+        67.0
+      ],
+      "creatinine": [
+        178.0,
+        186.0,
+        245.0,
+        268.0
+      ]
+    },
+    "steps": [
+      "T0(0h)",
+      "T1(2h)",
+      "T2(4h)",
+      "T3(6h)"
+    ]
+  },
+  "lactate_trend": [
+    4.2,
+    3.4,
+    4.9,
+    3.8
+  ],
+  "map_trend": [
+    64.0,
+    70.0,
+    61.0,
+    67.0
+  ],
+  "context_compare": {
+    "full_total": 1503,
+    "shard_total": 829,
+    "saved": 674,
+    "saving_pct": 44.8
+  },
+  "durable_session": "D:\\PythonProject\\sepsis_poc3\\output\\sessions\\course_T001.sqlite3",
+  "durable_events": 4
+}

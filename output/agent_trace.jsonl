@@ -1,0 +1,20 @@
+{"ts": "2026-10-09 13:35:35", "event": "TIMELINE_EVAL", "patient": "T001", "t": "T0(0h)", "confidence": "HIGH", "shard": 175, "full": 148}
+{"ts": "2026-10-09 13:35:47", "event": "TIMELINE_EVAL", "patient": "T001", "t": "T1(2h)", "confidence": "HIGH", "shard": 370, "full": 446}
+{"ts": "2026-10-09 13:35:59", "event": "TIMELINE_EVAL", "patient": "T001", "t": "T2(4h)", "confidence": "HIGH", "shard": 586, "full": 898}
+{"ts": "2026-10-09 13:36:11", "event": "TIMELINE_EVAL", "patient": "T001", "t": "T3(6h)", "confidence": "HIGH", "shard": 829, "full": 1503}
+{"ts": "2026-10-09 13:39:42", "event": "CONSULT_ROUTE", "patient": "P003", "severity": 7, "path": "resident>pharmacist>nurse>attending"}
+{"ts": "2026-10-09 13:39:58", "event": "CONSULT_OPINION", "patient": "P003", "role": "resident", "confidence": "HIGH", "ncit": 4}
+{"ts": "2026-10-09 13:40:11", "event": "CONSULT_OPINION", "patient": "P003", "role": "pharmacist", "confidence": "HIGH", "ncit": 3}
+{"ts": "2026-10-09 13:40:30", "event": "CONSULT_OPINION", "patient": "P003", "role": "nurse", "confidence": "MEDIUM", "ncit": 3}
+{"ts": "2026-10-09 13:40:42", "event": "CONSULT_OPINION", "patient": "P003", "role": "attending", "confidence": "HIGH", "ncit": 4}
+{"ts": "2026-10-09 13:40:59", "event": "consultation", "patient": "P003", "severity": 7, "path": "resident>pharmacist>nurse>attending", "single_dims": 2, "multi_dims": 4, "disagreements": 0}
+{"ts": "2026-10-09 13:45:49", "event": "TIMELINE_EVAL", "patient": "T001", "t": "T0(0h)", "confidence": "HIGH", "shard": 175, "full": 148}
+{"ts": "2026-10-09 13:46:15", "event": "TIMELINE_EVAL", "patient": "T001", "t": "T1(2h)", "confidence": "HIGH", "shard": 370, "full": 446}
+{"ts": "2026-10-09 13:46:49", "event": "TIMELINE_EVAL", "patient": "T001", "t": "T2(4h)", "confidence": "HIGH", "shard": 586, "full": 898}
+{"ts": "2026-10-09 13:47:19", "event": "TIMELINE_EVAL", "patient": "T001", "t": "T3(6h)", "confidence": "HIGH", "shard": 829, "full": 1503}
+{"ts": "2026-10-09 13:54:23", "event": "CONSULT_ROUTE", "patient": "P003", "severity": 7, "path": "resident>pharmacist>nurse>attending"}
+{"ts": "2026-10-09 13:54:57", "event": "CONSULT_OPINION", "patient": "P003", "role": "resident", "confidence": "HIGH", "ncit": 4}
+{"ts": "2026-10-09 13:55:26", "event": "CONSULT_OPINION", "patient": "P003", "role": "pharmacist", "confidence": "HIGH", "ncit": 3}
+{"ts": "2026-10-09 13:55:58", "event": "CONSULT_OPINION", "patient": "P003", "role": "nurse", "confidence": "MEDIUM", "ncit": 3}
+{"ts": "2026-10-09 13:56:28", "event": "CONSULT_OPINION", "patient": "P003", "role": "attending", "confidence": "HIGH", "ncit": 4}
+{"ts": "2026-10-09 13:57:06", "event": "consultation", "patient": "P003", "severity": 7, "path": "resident>pharmacist>nurse>attending", "single_dims": 2, "multi_dims": 4, "disagreements": 0}

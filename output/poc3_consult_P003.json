@@ -1,0 +1,145 @@
+{
+  "single": {
+    "confidence": "HIGH",
+    "conf_score": 0.88,
+    "answer": "该患者脓毒性休克需1小时内启动广谱抗菌药物（覆盖革兰阴性菌+厌氧菌），联合用药[ssc_guideline_2021/ch0/sec4/blk0]。多学科团队应协同完成ERCP或手术解除胆道梗阻[viking://source_control_culture/ch0/sec5#abs]，并每日评估抗菌药物降阶梯可能。\n本回答由 AI 辅助生成，仅供临床参考，不能替代医师判断。",
+    "citations": [
+      "viking://ssc_guideline_2021/ch0/sec4/blk0",
+      "viking://ssc_guideline_2021/ch0#abs",
+      "viking://source_control_culture/ch0/sec5/blk0",
+      "viking://source_control_culture/ch0/sec5#abs"
+    ]
+  },
+  "consult": {
+    "severity": 7,
+    "path": [
+      "resident",
+      "pharmacist",
+      "nurse",
+      "attending"
+    ],
+    "opinions": [
+      {
+        "role": "resident",
+        "role_cn": "住院医师",
+        "answer": "患者符合脓毒性休克标准（低血压+乳酸升高），需在1小时内启动抗菌药物并完成液体复苏[ssc_guideline_2021/ch0/sec4/blk0]。SOFA评分需核查呼吸（SpO2 94%）、凝血（血小板58×10^9/L）、肝脏（胆红素升高）、循环（MAP 56）、神经（GCS 12）及肾脏（肌酐3.8 mg/dL）功能障碍[sofa_scoring/ch0/sec0/blk0]。当前液体复苏未达30 mL/kg目标，需继续评估容量反应性[ssc_guideline_2021/ch0/sec2/blk0]。\n本回答由 AI 辅助生成，仅供临床参考，不能替代医师判断。",
+        "citations": [
+          "viking://ssc_guideline_2021/ch0/sec4/blk0",
+          "viking://ssc_guideline_2021/ch0#abs",
+          "viking://ssc_guideline_2021/ch0/sec2/blk0",
+          "viking://sofa_scoring/ch0/sec0/blk0"
+        ],
+        "confidence": "HIGH",
+        "conf_score": 0.88,
+        "conf_reason": "4条证据/2份文档/相关25.4",
+        "guardrail_ok": true,
+        "guardrail_reason": "通过"
+      },
+      {
+        "role": "pharmacist",
+        "role_cn": "临床药师",
+        "answer": "【临床药师循证意见】需立即启动广谱抗感染治疗[antibiotics_guideline/ch0#abs]，覆盖胆道常见病原体（如大肠杆菌、克雷伯菌等），并同步多学科协作实施感染源控制[viking://source_control_culture/ch0/sec5/blk0]。注意监测肾功能及药物肾毒性风险，根据培养结果调整降阶梯方案。\n本回答由 AI 辅助生成，仅供临床参考，不能替代医师判断。",
+        "citations": [
+          "viking://source_control_culture/ch0/sec5/blk0",
+          "viking://source_control_culture/ch0/sec5#abs",
+          "viking://antibiotics_guideline/ch0#abs"
+        ],
+        "confidence": "HIGH",
+        "conf_score": 0.81,
+        "conf_reason": "3条证据/2份文档/相关13.4",
+        "guardrail_ok": true,
+        "guardrail_reason": "通过"
+      },
+      {
+        "role": "nurse",
+        "role_cn": "专科护理",
+        "answer": "该患者符合脓毒性休克标准，需在1小时内启动经验性广谱抗菌治疗[ viking://ssc_guideline_2021/ch0/sec4/blk0 ]。持续晶体液复苏（已输注1500ml），应动态评估容量反应性指标如被动抬腿试验或每搏量变异度，避免液体过负荷[ viking://ssc_guideline_2021/ch0/sec2/blk0 ]。监测尿量、中心静脉压及血乳酸趋势，调整血管活性药物剂量。每日评估抗菌药物降阶梯可能，依据病原学结果窄谱化治疗。\n本回答由 AI 辅助生成，仅供临床参考，不能替代医师判断。",
+        "citations": [
+          "viking://ssc_guideline_2021/ch0/sec4/blk0",
+          "viking://ssc_guideline_2021/ch0#abs",
+          "viking://ssc_guideline_2021/ch0/sec2/blk0"
+        ],
+        "confidence": "MEDIUM",
+        "conf_score": 0.69,
+        "conf_reason": "3条证据/1份文档",
+        "guardrail_ok": true,
+        "guardrail_reason": "通过"
+      },
+      {
+        "role": "attending",
+        "role_cn": "主治医师",
+        "answer": "该患者脓毒性休克需1小时内启动广谱抗菌药物（覆盖革兰阴性菌+厌氧菌），联合用药[ssc_guideline_2021/ch0/sec4/blk0]。多学科团队应协同完成ERCP或手术解除胆道梗阻[viking://source_control_culture/ch0/sec5#abs]，并每日评估抗菌药物降阶梯可能。\n本回答由 AI 辅助生成，仅供临床参考，不能替代医师判断。",
+        "citations": [
+          "viking://ssc_guideline_2021/ch0/sec4/blk0",
+          "viking://ssc_guideline_2021/ch0#abs",
+          "viking://source_control_culture/ch0/sec5/blk0",
+          "viking://source_control_culture/ch0/sec5#abs"
+        ],
+        "confidence": "HIGH",
+        "conf_score": 0.88,
+        "conf_reason": "4条证据/2份文档/相关25.4",
+        "guardrail_ok": true,
+        "guardrail_reason": "通过"
+      }
+    ],
+    "disagreements": [],
+    "consensus": {
+      "answer": "多学科综合评估：患者符合脓毒性休克标准（低血压+乳酸升高），需1小时内启动广谱抗菌治疗（覆盖革兰阴性菌+厌氧菌）[ssc_guideline_2021/ch0/sec4/blk0]，联合用药并解除胆道梗阻[viking://source_control_culture/ch0/sec5#abs]。液体复苏未达30mL/kg目标，需评估容量反应性[ssc_guideline_2021/ch0/sec2/blk0]。SOFA评分提示多器官功能障碍（呼吸、凝血、肝脏、循环、神经、肾脏），需动态监测[sofa_scoring/ch0/sec0/blk0]。证据强：抗菌治疗时机、容量评估；需人工复核：ERCP手术选择及降阶梯方案调整依据。\n本回答由 AI 辅助生成，仅供临床参考，不能替代医师判断。",
+      "confidence": "HIGH",
+      "conf_score": 0.79,
+      "conf_reason": "14条证据/4份文档/相关0.0",
+      "citations": [
+        "viking://ssc_guideline_2021/ch0/sec4/blk0",
+        "viking://ssc_guideline_2021/ch0#abs",
+        "viking://ssc_guideline_2021/ch0/sec2/blk0",
+        "viking://sofa_scoring/ch0/sec0/blk0",
+        "viking://source_control_culture/ch0/sec5/blk0",
+        "viking://source_control_culture/ch0/sec5#abs",
+        "viking://antibiotics_guideline/ch0#abs",
+        "viking://ssc_guideline_2021/ch0/sec4/blk0",
+        "viking://ssc_guideline_2021/ch0#abs",
+        "viking://ssc_guideline_2021/ch0/sec2/blk0",
+        "viking://ssc_guideline_2021/ch0/sec4/blk0",
+        "viking://ssc_guideline_2021/ch0#abs",
+        "viking://source_control_culture/ch0/sec5/blk0",
+        "viking://source_control_culture/ch0/sec5#abs"
+      ]
+    },
+    "trace": [
+      {
+        "event": "route",
+        "severity": 7,
+        "path": [
+          "resident",
+          "pharmacist",
+          "nurse",
+          "attending"
+        ]
+      },
+      {
+        "event": "opinion",
+        "role": "resident",
+        "confidence": "HIGH",
+        "ncit": 4
+      },
+      {
+        "event": "opinion",
+        "role": "pharmacist",
+        "confidence": "HIGH",
+        "ncit": 3
+      },
+      {
+        "event": "opinion",
+        "role": "nurse",
+        "confidence": "MEDIUM",
+        "ncit": 3
+      },
+      {
+        "event": "opinion",
+        "role": "attending",
+        "confidence": "HIGH",
+        "ncit": 4
+      }
+    ]
+  }
+}
